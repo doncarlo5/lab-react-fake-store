@@ -1,0 +1,45 @@
+.ProductListPage {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.ProductCard {
+  width: 95%;
+  height: 200px;
+  box-sizing: border-box;
+  margin-bottom: 16px; /* Optional margin between cards */
+  display: flex;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.ProductImage {
+  width: 20%; /* Adjust as needed */
+  height: 100%;
+  object-fit: cover;
+  border-radius: 8px 0 0 8px;
+}
+
+.ProductInfo {
+  width: 80%; /* Adjust as needed */
+  padding: 16px;
+  display: flex;
+  flex-direction: row; /* Change to column to stack the elements vertically */
+  align-items: center;
+}
+
+h3 {
+  margin: 0;
+  font-size: 1.2em;
+  font-weight: bold; /* Make the title bold */
+}
+
+p {
+  margin: 8px 0;
+  font-size: 1em;
+  color: #555;
+  width: 100%; /* Make each column take the full width */
+}
